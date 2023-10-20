@@ -1,5 +1,6 @@
 title: Boris Beker
 #logo: 
-description: [Linkedin Profile](https://www.linkedin.com/in/boris-beker/)
+<a href="https://www.linkedin.com/in/boris-beker/">View My LinkedIn Profile</a> 
+<a href="https://public.tableau.com/app/profile/boris3213/vizzes">View My Tableau Profile</a>
 #show_download: ture
 theme: jekyll-theme-minimal
