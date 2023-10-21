@@ -1,4 +1,4 @@
-![bb](Boris_Beker_Data_Analyst.jpg)
+![bb](BB_okrugla.png)
 
 # Data Analyst Portfolio
 ###Education
