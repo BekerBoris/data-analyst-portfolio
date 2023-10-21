@@ -1,4 +1,4 @@
-# Data Analyst Portfolioo aj radi 
+# Data Analyst Portfolio
 ###Education
 fdkjgf
 ### Work Experience
