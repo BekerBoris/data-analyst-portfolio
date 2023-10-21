@@ -1,5 +1,5 @@
 
-![Boris Beker Data Analyst](Boris Beker Data Analyst.jpg)
+![Boris Beker Data Analyst](Boris_Beker_Data_Analyst.jpg)
 # Data Analyst Portfolio
 ###Education
 fdkjgf
