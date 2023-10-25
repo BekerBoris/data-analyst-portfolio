@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Boris Beker Data Analyst</title>
+		<link rel="icon" type="image/png" src="/images/icon.png">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="#" class="image avatar"><img src="images/Boris_Beker_CV_okrugla.jfif" alt="Boris Beker portfolio picture" /></a>
+					<h1><strong>Boris Beker</strong> Data Analyst<br />
+					<strong>Portfolio</strong><br />
+					</h1>
+					<p>#SQL #PowerBI #Tableau #Python(Pandas) #Excel</p>
+				</div>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+					<section id="one">
+						<header class="major">
+							<h2>My IMDB Statistic Power BI</h2>
+						</header>
+						
+						<img src="images/My IMDB project.JPG" class="image fit thumb" alt="" />
+						<p>For this dashboard, I used data from my personal IMDB account so it is meant to showcase my skills in using Power BI 
+							but also tell a little bit about me through my move stats.<br />
+							The dashboard is interactive s when you click on for example "Dutch" the dashboard will readjust to show just stats relevant to Dutch movies,
+							when you click "Adventure" it will show just stats for Action movies and if I click on "Dutch" and "Adventure" it will show stats for Dutch action movies.<br>
+							The colors used in this dashboard are colors from the original IMDB color schema.
+						</p>
+						<img src="images/Dutch.JPG" class="image fit thumb" alt="" />
+						<p>The first step was to familiarise myself whit the data provided to see if data needed to be "cleaned" or reformated. <br />
+						The first thing that I noticed is that if movie belong to more than one genre (and most of them do) all genres are stored in one cell which is not adequate. 
+						I split genre column into multiple columns and move them to there on designated table toghether with the id column and then I unpivoted genres column and 
+						via a id column, I connected the genre table to the original table.
+						</p>
+						<img src="images/Ganres.JPG" class="image fit thumb" alt="" />
+						<p> After that I needed to create some calculated measures and calculated tables using DAX. <br>
+							Because I did not have a language column I needed to create that from the country of origin, I needed to convert Runtime(minutes) to Runtime(days)
+							and also I needed to create a calendar table from 1900 to now to show relice year graph. <br>
+							Also, for the English vs non-English pie chart, I needed to group all languages that are not in English so I would get one big pie slice and not 20 small ones. <br>
+							Some visualisations like stars visualizations and word cloud are not standard Power BI so they needed to be imported into Power BI
+							in order to be used.
+						</p>
+						<img src="images/language.JPG" class="image fit thumb" alt="" />
+						<p>In the end I needed to prepare the background for visualizations and arange them in a meaningfull and visually pleasing way, I did that using 	Power BI but also using Canva. <br>
+						  As I wrote above, colors used in this dashboard are colors from the original IMDB color schema.
+						   </p>
+					</section>
+
+				
+				<!-- Four -->
+			
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<a href="index.html"> Home</a>
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/boris-beker/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+					</ul>
+					<a href="https://public.tableau.com/app/profile/boris3213/vizzes">My Tableau Profile</a>
+					<ul class="copyright">
+						<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>&copy; Untitled</li><li>Adapted by: Boris Beker</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
