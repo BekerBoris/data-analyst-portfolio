@@ -1,6 +1,6 @@
 
 
--->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Olymics_history_project<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+-->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Olympics_history_project<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 
 --Dataset was downloaded from Kagel https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results
@@ -104,7 +104,7 @@ where medal_rank<=5
 -- Also iside crosstab function we can have just 3 columns, first is grouping column, second is column that will be pivoted and third is values that will populate that new pivoted columns.
 -- where medal<>'NA' this part ensure that countries that did not won any medales are skiped
 select country,
--- coasce() function transform NULL values int 0
+-- coalesce() function transform NULL values int 0
 coalesce (gold, 0) as gold,
 coalesce (silver, 0) as silver,
 coalesce (bronze, 0) as bronze
